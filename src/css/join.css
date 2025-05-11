@@ -1,0 +1,46 @@
+/* #region join*/
+.join {
+    align-items: center;
+}
+
+.container-join {
+    display: flex;
+
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    fill: #02897A;
+    margin-top: 100px;
+
+    border-radius: 32px;
+    width: 968px;
+    height: 345px;
+    background: #02897a;
+}
+
+.join-title {
+    font-weight: 600;
+    font-size: 32px;
+
+    /* line-height: 48px; */
+    line-height: 1.514;
+    color: #fff;
+    width: 510px;
+    height: 144px;
+    padding: 49px 10px 152px 51px;
+
+
+}
+
+.btn-get-this {
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+
+}
+
+/* #endregion join*/

@@ -1,12 +1,95 @@
 /* header styles */
-header {
-  padding: 20px;
-
-  font-size: 1.2em;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-
-  background: lightblue;
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 30px;
+  /* line-height: 28px; */
+  line-height: 1;
+  color: #173a56;
+  margin-right: 237px;
+}
+
+.list-navigation {
+  display: flex;
+  gap: 30px;
+}
+
+.list-navigation-item {}
+
+.current {
+  font-weight: 600;
+}
+
+.list-navigation-link {
+  /* line-height: 28px; */
+  line-height: 1.75;
+  color: #22343d;
+  padding: 26px 0;
+  display: block;
+}
+
+.header-list-buttons {
+  display: flex;
+  gap: 21px;
+  margin-left: auto;
+}
+
+.header-list-btn-item {}
+
+.header-list-btn {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.sign-in {
+  width: 105px;
+  height: 42px;
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+  background-color: #fff;
+
+
+}
+
+.sign-in:hover,
+.sign-in:focus {
+  color: #fff;
+  background-color: #02897a;
+  border: none;
+
+}
+
+.sign-up {
+  width: 113px;
+  height: 42px;
+  color: #fff;
+  background: #02897a;
+  border: none;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+  background-color: #fff;
+}
+
+/* #endregion header */
