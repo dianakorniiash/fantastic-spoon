@@ -7,22 +7,473 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/fantastic-spoon/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/fantastic-spoon/assets/index-4d5460c4.css">
+    <link rel="stylesheet" href="/fantastic-spoon/assets/index-4e0aa3b8.css">
   </head>
   <body>
-    <!-- Loads the specified .html file -->
-    <header>
-  <p>Header block</p>
+    <!-- #region header-->
+<header class="header">
+  <div class="container header-container">
+    <nav class="navigation">
+      <a href="./index.html" class="header-logo"
+        ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAMAAADM4ogkAAAAvVBMVEUAAAACvWsDW4ECu2sEc4ADvGsFXYAEh3wDW4IDvWoCvG8CiXoCiXoDW4IDiHoEXIAEinwEjzgDW4EDW4ECiHoDXIIDWoIDWoADinsDvGwCiXsDXIIEW4ECh3oCiHoEu2wGv3ACvWsCiXoCinoDvGsCiXoDWoIDvGwEXIMEjzgAjzgCjjYCjzcCvGwDjzgDWoEDvGwCiXkCjjgDinsCvGwCjjcCu2sDWoADvGsFumoCvGsDW4ECiXoCjjcCn0rmhjwjAAAAOnRSTlMA39+AEL8gIL9gIO/foGBAQEDvz5CAcDC/v7CvkIBwQBDvz5+fgGBQQCAQ79/Pv7CvoKCfkJBwYF8wWT4L5wAAAVpJREFUOMuNlNl2gkAQBUscBVHRuGuMSzQx+74C5v8/K5GGccmA1HOd26f7zhmOUHbK5KFsBZbK5wWBk8vb0OMY7UDok4UNffEyh6tFTUEvNhvp3nkYDoDTrEjx/piAam0jp8uSZln8BrBr4YaqDV0Rx7Dy9ym5MAmFVx3ZgoJ/wPwLOrGpYJxcyP/PFFUTcQINEXsmsTDDE3EASsQ6voEiqirrAFJjm+IuT3EkjCTSTk5psc+bmLNknSbUZTb7uCK6XGixaxSnOcVZfFUMowu7zMUbwuBwGeN5KtjiVfXrdUzikOTgI0AmP2IoxsWOK/TgKrXCoavPXbX1Lo1D8f4DaIbCQjfYgp+IYiVi5RJxFnk1Gz6TN8E64gTN1vQkUCYbRTE76FosUkW8Z/TKwWWqqL8UHchthujsBPK+8e7IShwDcPOyXj9ck2FaCkQVzWy2A6tMHpTTJ+IXNq+PtnMSgdUAAAAASUVORK5CYII=" alt="logo" />Product</a
+      >
+      <ul class="list-navigation">
+        <li class="list-navigation-item">
+          <a href="./index.html" class="list-navigation-link current"
+            >Product</a
+          >
+        </li>
+        <li class="list-navigation-item">
+          <a href="./pricing.html" class="list-navigation-link">Pricing</a>
+        </li>
+        <li class="list-navigation-item">
+          <a href="./customer.html" class="list-navigation-link">Customers</a>
+        </li>
+        <li class="list-navigation-item">
+          <a href="./resourses.html" class="list-navigation-link">Resourses</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="header-list-buttons">
+      <li class="header-list-btn-item">
+        <button type="button" class="header-list-btn sign-in">Sign In</button>
+      </li>
+      <li class="header-list-btn-item">
+        <button type="button" class="header-list-btn sign-up">Sign Up</button>
+      </li>
+    </ul>
+  </div>
 </header>
+<!-- #endregion header -->
 
-
-    <h1>Lorem ipsum dolor sit amet.</h1>
-    <img src="/fantastic-spoon/assets/javascript-8dac5379.svg" alt="" />
 
     <!-- Loads the specified .html file -->
-    <footer>
-  <p>Footer block</p>
-</footer>
+
+    <!-- #region hero-->
+<section class="hero">
+  <div class="container hero-wrap">
+    <div class="hero-main-text">
+      <h1 class="hero-title">Work at the speed of thought</h1>
+      <p class="hero-title-descr">
+        Tools, tutorials, design and innovation experts, all in one place! The
+        most intuitive way to imagine your next user experience.
+      </p>
+
+      <ul class="hero-list-buttons">
+        <li class="hero-list-item">
+          <button type="button" class="hero-list-btn started">
+            Get started
+          </button>
+        </li>
+        <li class="hero-list-item">
+          <button type="button" class="hero-list-btn watch">
+            <svg class="icon" width="20" height="18">
+              <use href="./src/images/svg/sprite.svg#icon-triangle"></use>
+            </svg>
+            Watch the Video
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <img src="/fantastic-spoon/assets/hero-2967ba15.png" alt="hero" width="610" />
+  </div>
+</section>
+<!-- #endregion hero-->
+
+    <!-- #region Product -->
+<section class="specifically">
+  <div class="container">
+    <h2 class="specifically-title">Product was Built Specifically for You</h2>
+    <ul class="specifically-list">
+      <li class="specifically-list-item">
+        <div class="icon-box green">
+          <svg class="icon-specifically first" width="11" height="18">
+            <use href="/fantastic-spoon/assets/sprite-72e934e9.svg#icon-arrow"></use>
+          </svg>
+        </div>
+        <h3 class="specifically-item-subtitle">First click tests</h3>
+        <p class="specifically-item-descr">
+          While most people enjoy casino gambling,
+        </p>
+      </li>
+      <li class="specifically-list-item">
+        <div class="icon-box blue">
+          <svg class="icon-specifically second" width="18" height="18">
+            <use href="/fantastic-spoon/assets/sprite-72e934e9.svg#icon-snake"></use>
+          </svg>
+        </div>
+        <h3 class="specifically-item-subtitle">Design surveys</h3>
+        <p class="specifically-item-descr">
+          Sports betting, lottery and bingo playing for the fun
+        </p>
+      </li>
+      <li class="specifically-list-item">
+        <div class="icon-box fiolet">
+          <svg class="icon-specifically third" width="16" height="18">
+            <use href="/fantastic-spoon/assets/sprite-72e934e9.svg#icon-heart"></use>
+          </svg>
+        </div>
+        <h3 class="specifically-item-subtitle">Preference tests</h3>
+        <p class="specifically-item-descr">
+          The Myspace page defines the individual.
+        </p>
+      </li>
+      <li class="specifically-list-item">
+        <div class="icon-box red">
+          <svg class="icon-specifically fourth" width="14" height="18">
+            <use href="/fantastic-spoon/assets/sprite-72e934e9.svg#icon-clock"></use>
+          </svg>
+        </div>
+        <h3 class="specifically-item-subtitle">Five second tests</h3>
+        <p class="specifically-item-descr">
+          Personal choices and the overall personality of the person.
+        </p>
+      </li>
+    </ul>
+    <button type="button" class="specifically-btn">SIGN UP NOW</button>
+  </div>
+</section>
+<!-- #endregion Product -->
+
+    <!-- #region Management -->
+<section class="management">
+  <div class="container management-wrap">
+    <div class="managament-main-text">
+      <p class="management-subtitle">Effortless Validation for</p>
+      <h2 class="management-title">Management</h2>
+      <p class="management-title-descr">
+        The Myspace page defines the individual, his or her characteristics,
+        traits, personal choices and the overall personality of the person.
+      </p>
+      <ul class="management-list">
+        <li class="management-list-item">
+          <h3 class="management-item-title">Accessory makers</h3>
+          <p class="management-item-subtitle">
+            While most people enjoy casino gambling, sports betting, lottery and
+            bingo playing for the fun
+          </p>
+        </li>
+        <li class="management-list-item">
+          <h3 class="management-item-title">Alterationists</h3>
+          <p class="management-item-subtitle">
+            If you are looking for a new way to promote your business that won't
+            cost you more money,
+          </p>
+        </li>
+      </ul>
+    </div>
+    <img
+      src="/fantastic-spoon/assets/management-dca8e0f3.png"
+      alt="management"
+      class="management-img"
+    />
+  </div>
+</section>
+<!-- #endregion Management -->
+
+    <!-- #region Support to do!!! -->
+<section class="customer">
+  <div class="container customer-wrap">
+    <div class="customer-main-text">
+      <p class="customer-subtitle">Easier decision making for</p>
+      <h2 class="customer-title">Customer Support</h2>
+      <p class="customer-title-descr">
+        The Myspace page defines the individual, his or her characteristics,
+        traits, personal choices and the overall personality of the person.
+      </p>
+      <ul class="customer-list">
+        <li class="customer-list-item">
+          <div class="icon-box-item orange">
+            <svg class="icon-box-item-svg" width="16" height="12">
+              <use href="/fantastic-spoon/assets/sprite-72e934e9.svg#icon-path"></use>
+            </svg>
+          </div>
+          <p class="customer-item-descr">
+            Never worry about overpaying for your energy again.
+          </p>
+        </li>
+        <li class="customer-list-item">
+          <div class="icon-box-item red">
+            <svg class="icon-box-item-svg" width="16" height="12">
+              <use href="/fantastic-spoon/assets/sprite-72e934e9.svg#icon-path"></use>
+            </svg>
+          </div>
+          <p class="customer-item-descr">
+            We will only switch you to energy companies that we trust and will
+            treat you right
+          </p>
+        </li>
+        <li class="customer-list-item">
+          <div class="icon-box-item blue">
+            <svg class="icon-box-item-svg" width="16" height="12">
+              <use href="/fantastic-spoon/assets/sprite-72e934e9.svg#icon-tick"></use>
+            </svg>
+          </div>
+          <p class="customer-item-descr">
+            We track the markets daily and know where the savings are.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <img src="/fantastic-spoon/assets/support-e64a87ed.png" alt="support" width="540" />
+  </div>
+</section>
+<!-- #endregion Support -->
+
+    <!-- #region Collaborative -->
+<section class="collaborative">
+  <div class="container collaborative-wrap">
+    <div class="collaborative-main-text">
+      <p class="collaborative-subtitle">Optimisation for</p>
+      <h2 class="collaborative-title">Collaborative</h2>
+      <p class="collaborative-title-descr">
+        Few would argue that, despite the advancements of feminism over the past
+        three decades, women still face a double standard when it comes to their
+        behavior.
+      </p>
+      <ul class="collaborative-list">
+        <li class="collaborative-list-item">
+          <h3 class="collaborative-item-title">Accessory makers</h3>
+          <p class="collaborative-item-descr">
+            While most people enjoy casino gambling, sports betting, lottery and
+            bingo playing for the fun
+          </p>
+        </li>
+        <li class="collaborative-list-item">
+          <h3 class="collaborative-item-title">Alterationists</h3>
+          <p class="collaborative-item-descr">
+            If you are looking for a new way to promote your business that won’t
+            cost you more money,
+          </p>
+        </li>
+      </ul>
+    </div>
+    <img src="/fantastic-spoon/assets/collaboration-a38c691e.png" alt="collaboration" width="540" />
+  </div>
+</section>
+<!-- #endregion Collaborative -->
+
+    <!-- #region Process -->
+<section class="process">
+  <div class="container">
+    <h2 class="process-title">Quick & Easy Process</h2>
+    <p class="process-title-descr">
+      Do you require some help for your project: Conception workshop,
+      prototyping, marketing strategy, landing page, Ux/UI?
+    </p>
+    <ul class="process-list">
+      <li class="process-list-item">
+        <img src="/fantastic-spoon/assets/process1-442b9626.jpg" alt="care" width="98" />
+        <p class="process-item-descr">I can take care of your pitch</p>
+      </li>
+      <li class="process-list-item">
+        <img src="/fantastic-spoon/assets/process2-d9e690b5.jpg" alt="app" width="98" />
+        <p class="process-item-descr">I can prototype your app</p>
+      </li>
+      <li class="process-list-item">
+        <img src="/fantastic-spoon/assets/process3-2e8edfa3.jpg" alt="pitch" width="98" />
+        <p class="process-item-descr">I can take care of your pitch</p>
+      </li>
+      <li class="process-list-item">
+        <img src="/fantastic-spoon/assets/process4-ac2ab8aa.jpg" alt="strategy" width="98" />
+        <p class="process-item-descr">I can help marketing strategy</p>
+      </li>
+    </ul>
+    <button type="button" class="process-btn">Contact our expert</button>
+  </div>
+</section>
+<!-- #endregion Process -->
+
+    <!-- #region Strategies-->
+<section class="strategy">
+  <div class="container">
+    <h2 class="strategy-title">Contents Strategies</h2>
+    <p class="strategy-title-descr">
+      We focus on ergonomics and meeting you where you work. It's only a
+      keystroke away.
+    </p>
+    <ul class="strategy-list">
+      <li class="strategy-list-item">
+        <a href=""
+          ><img src="/fantastic-spoon/assets/laptop-d8296c77.png" alt="laptop" />
+          <p class="strategy-list-item-img">
+            By <span class="strategy-span">Wahid Ari</span> | 03 March 2019
+          </p>
+        </a>
+        <h3 class="strategy-item-descr">
+          Increasing Prosperity With Positive Thinking
+        </h3>
+      </li>
+      <li class="strategy-list-item">
+        <a href=""
+          ><img src="/fantastic-spoon/assets/view-b661815a.png" alt="view" />
+          <p class="strategy-list-item-img">
+            By <span class="strategy-span">Wahid Ari</span> | 03 March 2019
+          </p>
+        </a>
+        <h3 class="strategy-item-descr-green">
+          Motivation Is The First Step To Success
+        </h3>
+      </li>
+      <li class="strategy-list-item">
+        <a href=""
+          ><img src="/fantastic-spoon/assets/sky-09525ec7.png" alt="sky" />
+          <p class="strategy-list-item-img">
+            By <span class="strategy-span">Wahid Ari</span> | 03 March 2019
+          </p>
+        </a>
+        <h3 class="strategy-item-descr">
+          Success Steps For Your Personal Or Business
+        </h3>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- #endregion Strategies-->
+
+    <!-- #region pricing -->
+<section class="pricing">
+  <div class="container">
+    <h2 class="price-title">Price Table</h2>
+    <p class="price-title-descr">We offer competitive price</p>
+    <ul class="price-list">
+      <li class="price-item">
+        <h3 class="price-item-title">Free</h3>
+        <p class="price-item-title-descr">Brief price description</p>
+
+        <div class="priscing-wrap">
+          <h4 class="price-number">0</h4>
+          <div class="price-number-wrap">
+            <p class="price-valute">$</p>
+            <p class="price-period">Per / month</p>
+          </div>
+        </div>
+        <ul class="price-list-points">
+          <li class="price-points-item">
+            <h5 class="item-operations">Only 2 Operators</h5>
+          </li>
+          <li class="price-points-item">
+            <h5 class="item-notifications">Notifications</h5>
+          </li>
+          <li class="price-points-item">
+            <h5 class="item-landing">Landing Pages</h5>
+          </li>
+        </ul>
+        <button type="button" class="price-btn">Order Now</button>
+      </li>
+      <li class="price-item">
+        <h3 class="price-item-title standart">Standard</h3>
+        <p class="price-item-title-descr standart">Brief price description</p>
+        <div class="priscing-wrap">
+          <h4 class="price-number standart">5</h4>
+          <div class="price-number-wrap">
+            <p class="price-valute standart">$</p>
+            <p class="price-period standart">Per / month</p>
+          </div>
+        </div>
+
+        <ul class="price-list-points">
+          <li class="price-points-item">
+            <h5 class="item-operations standart">5+ Operators</h5>
+          </li>
+          <li class="price-points-item">
+            <h5 class="item-notifications standart">Notifications</h5>
+          </li>
+          <li class="price-points-item">
+            <h5 class="item-landing standart">Landing Pages</h5>
+          </li>
+        </ul>
+        <button type="button" class="price-btn standart-btn">Order Now</button>
+      </li>
+      <li class="price-item">
+        <h3 class="price-item-title">Premium</h3>
+        <p class="price-item-title-descr">Brief price description</p>
+        <div class="priscing-wrap">
+          <h4 class="price-number">10</h4>
+          <div class="price-number-wrap">
+            <p class="price-valute">$</p>
+            <p class="price-period">Per / month</p>
+          </div>
+        </div>
+        <ul class="price-list-points">
+          <li class="price-points-item">
+            <h5 class="item-operations">10+ Operators</h5>
+          </li>
+          <li class="price-points-item">
+            <h5 class="item-notifications">Notifications</h5>
+          </li>
+          <li class="price-points-item">
+            <h5 class="item-landing">Landing Pages</h5>
+          </li>
+        </ul>
+        <button type="button" class="price-btn">Order Now</button>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- #endregion prices -->
+
+    <!-- #region Clients-->
+<section class="clients">
+  <div class="container-clients"></div>
+  <h2>What Clients Say</h2>
+  <p>
+    Problems trying to resolve the conflict between the two major realms of
+    Classical physics: Newtonian mechanics
+  </p>
+  <ul>
+    <li>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAAASCAYAAACzUEs7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATMSURBVHgB1VndcdtGEN49gDPJDOWBO7AqiGjaeRVVQeQKLFVgqYJQFcSqIEoFUSqw/ZpYJjsIOzBGlCeaAXCX/Y4AdQBB8kCAD/5mKEG45YfD/t+KaAvmE/Xbw13w79cJRdQhhPN38FLHePgSTuZfgg/UMbDXffFCF9vk1KbF/yY/vCDNF4boRU/3zqirzf3dOxLOM/DeT4JT6gjzSTgyxhyRodH8n3BEHeH+LrB73RcvdGF1vQEbDZXp5Nenv/Q76grBExcb6o7XmKf9Bs51S4iS9s6b6vRikyyvW4CFU52UU5Pmk4PX6Udqge+NF1FK2pRSXqh6hz8OHmfUAogmUT5S3q18RriXquzw+YDiOvm1EZXpdNXTO/CmcpTumVeZ9tFqVve2zft9wIbt3lipK/l5LZdRqMOL9fKTKPpG3yRPmshoY38rUhGTeWvz8upXQBqL3IwVz3CnT/0pD+KSJxS8mrTUOYoKXllZYxS+FtkZE8cd816JbNwxb5zvdysvIj2jLHJ5A+KfUJeI+ePBy/QEjVqoi8ZqDS+6jnqDNIN4xqA/SKa4dh7culN000zO+5XaI3bTzL5469KmC9H7+bNhdmNl78LxOmeTFDlTRvMf1BLMPE0oWXoSNmoM/UUtAV63FuQKuKWWwN5WagGbKbVElTeldAol53/GmswljIPayZkaFEYCDobpGPfxgYxwLe0CG9lmQlrOseTzXevErXjReV0RnH8O34sCdqoT2OizV9lZ3dr95+CGmd7SLjB8ffBqtcbYqDLqg6wf0S7QfCWNy3gjrzhDyvpkXcNQQN7vVN4PjUZU8Npmwj5AblBT4KWH2Zt1D7YK2YVXvrPOSADWXI9rwltnJADvACXuzFtjJJfXRqwYC0bbNDx4mKh3YqQ/5VL6BHVe8Jba80aRtWFzVeyNt0HEslaX/dfJex/ZBhErRV94h8nNNkE3spAixdlOa557mhspFj28cY8WpfY8V1BM2xH7KhNIw9RLQcjnTXjDIPTjlVrnayRAaeUnyzT1MRJgsw6rS8vPVNu4SMtudS+G/FQ9/5UMZbsUv04tajJKCSn0yvvoPreNUlwkWeLHK2OlJrNKHWi/OiUjpSa8rBf1TxN9Ku5B58U758aJJaqOq99VdUReUIvTtBe0v2ymM+/Zn0TKyFe2yaxSIvsXX9mAgpGvrGFteZVSUxjHDnmlfcdERYbftjTk3fJKIJQMZUgf1/DHTou5hFjd+2Ukpld4wVnHW7yMFwx582qjR+QJ+f6RL68494h8YSyvpLfsWIwzQUQiLVtezWOcaQPmxcFXUclhyxG1ukG03of9YXZY7d4apRNT4ZVuMVHZoI7XN51YGTa1vPjg2l2qSyd1gKevDABkjzlvTVdovI4J+I8BLcqKTIDY1kDb4LxMl7x4rpy1xnaNTMlhlUtUbDC38InbeqPIw2iuV/mkE7fuLXmlRd7E65NO3LpX5cUH1xVer7rq1j14e5plA+wx553ZYwMOrA155aWeZGR0lMJR8wan4MVBt+Ct1uuloYJesEhxuVfWTZ1B6ERBjJkUbUOa//bnRU3bHqnNeX26WVg9okV7fAVvf/4zTasieJYTtXHRrW1CrqsYUYT5HvZWlcGkwona+JEel2v/AyRgGu3QnDcGAAAAAElFTkSuQmCC" alt="1" />
+      <p>
+        Product helps you see how many more days you need to work to reach your
+        financial goal.
+      </p>
+      <img src="/fantastic-spoon/assets/ph1-ddc9d58c.png" alt="ph1" />
+      <h3>Wahid Ari</h3>
+      <p>Designer</p>
+    </li>
+    <li>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAAASCAYAAACzUEs7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATMSURBVHgB1VndcdtGEN49gDPJDOWBO7AqiGjaeRVVQeQKLFVgqYJQFcSqIEoFUSqw/ZpYJjsIOzBGlCeaAXCX/Y4AdQBB8kCAD/5mKEG45YfD/t+KaAvmE/Xbw13w79cJRdQhhPN38FLHePgSTuZfgg/UMbDXffFCF9vk1KbF/yY/vCDNF4boRU/3zqirzf3dOxLOM/DeT4JT6gjzSTgyxhyRodH8n3BEHeH+LrB73RcvdGF1vQEbDZXp5Nenv/Q76grBExcb6o7XmKf9Bs51S4iS9s6b6vRikyyvW4CFU52UU5Pmk4PX6Udqge+NF1FK2pRSXqh6hz8OHmfUAogmUT5S3q18RriXquzw+YDiOvm1EZXpdNXTO/CmcpTumVeZ9tFqVve2zft9wIbt3lipK/l5LZdRqMOL9fKTKPpG3yRPmshoY38rUhGTeWvz8upXQBqL3IwVz3CnT/0pD+KSJxS8mrTUOYoKXllZYxS+FtkZE8cd816JbNwxb5zvdysvIj2jLHJ5A+KfUJeI+ePBy/QEjVqoi8ZqDS+6jnqDNIN4xqA/SKa4dh7culN000zO+5XaI3bTzL5469KmC9H7+bNhdmNl78LxOmeTFDlTRvMf1BLMPE0oWXoSNmoM/UUtAV63FuQKuKWWwN5WagGbKbVElTeldAol53/GmswljIPayZkaFEYCDobpGPfxgYxwLe0CG9lmQlrOseTzXevErXjReV0RnH8O34sCdqoT2OizV9lZ3dr95+CGmd7SLjB8ffBqtcbYqDLqg6wf0S7QfCWNy3gjrzhDyvpkXcNQQN7vVN4PjUZU8Npmwj5AblBT4KWH2Zt1D7YK2YVXvrPOSADWXI9rwltnJADvACXuzFtjJJfXRqwYC0bbNDx4mKh3YqQ/5VL6BHVe8Jba80aRtWFzVeyNt0HEslaX/dfJex/ZBhErRV94h8nNNkE3spAixdlOa557mhspFj28cY8WpfY8V1BM2xH7KhNIw9RLQcjnTXjDIPTjlVrnayRAaeUnyzT1MRJgsw6rS8vPVNu4SMtudS+G/FQ9/5UMZbsUv04tajJKCSn0yvvoPreNUlwkWeLHK2OlJrNKHWi/OiUjpSa8rBf1TxN9Ku5B58U758aJJaqOq99VdUReUIvTtBe0v2ymM+/Zn0TKyFe2yaxSIvsXX9mAgpGvrGFteZVSUxjHDnmlfcdERYbftjTk3fJKIJQMZUgf1/DHTou5hFjd+2Ukpld4wVnHW7yMFwx582qjR+QJ+f6RL68494h8YSyvpLfsWIwzQUQiLVtezWOcaQPmxcFXUclhyxG1ukG03of9YXZY7d4apRNT4ZVuMVHZoI7XN51YGTa1vPjg2l2qSyd1gKevDABkjzlvTVdovI4J+I8BLcqKTIDY1kDb4LxMl7x4rpy1xnaNTMlhlUtUbDC38InbeqPIw2iuV/mkE7fuLXmlRd7E65NO3LpX5cUH1xVer7rq1j14e5plA+wx553ZYwMOrA155aWeZGR0lMJR8wan4MVBt+Ct1uuloYJesEhxuVfWTZ1B6ERBjJkUbUOa//bnRU3bHqnNeX26WVg9okV7fAVvf/4zTasieJYTtXHRrW1CrqsYUYT5HvZWlcGkwona+JEel2v/AyRgGu3QnDcGAAAAAElFTkSuQmCC" alt="1" />
+      <p>
+        Product helps you see how many more days you need to work to reach your
+        financial goal.
+      </p>
+      <img src="/fantastic-spoon/assets/ph2-4a3d2b37.png" alt="ph2" />
+      <h3>Wahid Ari</h3>
+      <p>Designer</p>
+    </li>
+    <li>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAAASCAYAAACzUEs7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATMSURBVHgB1VndcdtGEN49gDPJDOWBO7AqiGjaeRVVQeQKLFVgqYJQFcSqIEoFUSqw/ZpYJjsIOzBGlCeaAXCX/Y4AdQBB8kCAD/5mKEG45YfD/t+KaAvmE/Xbw13w79cJRdQhhPN38FLHePgSTuZfgg/UMbDXffFCF9vk1KbF/yY/vCDNF4boRU/3zqirzf3dOxLOM/DeT4JT6gjzSTgyxhyRodH8n3BEHeH+LrB73RcvdGF1vQEbDZXp5Nenv/Q76grBExcb6o7XmKf9Bs51S4iS9s6b6vRikyyvW4CFU52UU5Pmk4PX6Udqge+NF1FK2pRSXqh6hz8OHmfUAogmUT5S3q18RriXquzw+YDiOvm1EZXpdNXTO/CmcpTumVeZ9tFqVve2zft9wIbt3lipK/l5LZdRqMOL9fKTKPpG3yRPmshoY38rUhGTeWvz8upXQBqL3IwVz3CnT/0pD+KSJxS8mrTUOYoKXllZYxS+FtkZE8cd816JbNwxb5zvdysvIj2jLHJ5A+KfUJeI+ePBy/QEjVqoi8ZqDS+6jnqDNIN4xqA/SKa4dh7culN000zO+5XaI3bTzL5469KmC9H7+bNhdmNl78LxOmeTFDlTRvMf1BLMPE0oWXoSNmoM/UUtAV63FuQKuKWWwN5WagGbKbVElTeldAol53/GmswljIPayZkaFEYCDobpGPfxgYxwLe0CG9lmQlrOseTzXevErXjReV0RnH8O34sCdqoT2OizV9lZ3dr95+CGmd7SLjB8ffBqtcbYqDLqg6wf0S7QfCWNy3gjrzhDyvpkXcNQQN7vVN4PjUZU8Npmwj5AblBT4KWH2Zt1D7YK2YVXvrPOSADWXI9rwltnJADvACXuzFtjJJfXRqwYC0bbNDx4mKh3YqQ/5VL6BHVe8Jba80aRtWFzVeyNt0HEslaX/dfJex/ZBhErRV94h8nNNkE3spAixdlOa557mhspFj28cY8WpfY8V1BM2xH7KhNIw9RLQcjnTXjDIPTjlVrnayRAaeUnyzT1MRJgsw6rS8vPVNu4SMtudS+G/FQ9/5UMZbsUv04tajJKCSn0yvvoPreNUlwkWeLHK2OlJrNKHWi/OiUjpSa8rBf1TxN9Ku5B58U758aJJaqOq99VdUReUIvTtBe0v2ymM+/Zn0TKyFe2yaxSIvsXX9mAgpGvrGFteZVSUxjHDnmlfcdERYbftjTk3fJKIJQMZUgf1/DHTou5hFjd+2Ukpld4wVnHW7yMFwx582qjR+QJ+f6RL68494h8YSyvpLfsWIwzQUQiLVtezWOcaQPmxcFXUclhyxG1ukG03of9YXZY7d4apRNT4ZVuMVHZoI7XN51YGTa1vPjg2l2qSyd1gKevDABkjzlvTVdovI4J+I8BLcqKTIDY1kDb4LxMl7x4rpy1xnaNTMlhlUtUbDC38InbeqPIw2iuV/mkE7fuLXmlRd7E65NO3LpX5cUH1xVer7rq1j14e5plA+wx553ZYwMOrA155aWeZGR0lMJR8wan4MVBt+Ct1uuloYJesEhxuVfWTZ1B6ERBjJkUbUOa//bnRU3bHqnNeX26WVg9okV7fAVvf/4zTasieJYTtXHRrW1CrqsYUYT5HvZWlcGkwona+JEel2v/AyRgGu3QnDcGAAAAAElFTkSuQmCC" alt="1" />
+      <p>
+        Product helps you see how many more days you need to work to reach your
+        financial goal.
+      </p>
+      <img src="/fantastic-spoon/assets/ph3-a10b5384.png" alt="ph3" />
+      <h3>Wahid Ari</h3>
+      <p>Designer</p>
+    </li>
+  </ul>
+</section>
+<!-- #endregion Clients-->
+
+    <!-- #region Join-->
+<section class="join">
+  <div class="container-join">
+    <h2 class="join-title">
+      Join 100 Compannies who boost their business with Product
+    </h2>
+    <img
+      src="/fantastic-spoon/assets/graphics-78c070cf.png"
+      alt="graphics"
+      height="331"
+      width="351"
+      class="join-image"
+    />
+    <button type="button" class="btn-get-this">Get This</button>
+  </div>
+</section>
+<!-- #endregion Join-->
 
 
     
